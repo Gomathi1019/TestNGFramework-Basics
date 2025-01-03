@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-26T13:52:36 IST" name="Testing ebay E-Commerce website" finished-at="2024-12-26T13:53:52 IST" duration-ms="76359">
+    <groups>
+      <group name="Catagorys">
+        <method signature="groupskeyword.selectItems()[pri:4, instance:com.testNg.groupskeyword@506ae4d4]" name="selectItems" class="com.testNg.groupskeyword"/>
+        <method signature="dependencykeyword.selectItems()[pri:4, instance:com.testNg.dependencykeyword@6bd61f98]" name="selectItems" class="com.testNg.dependencykeyword"/>
+      </group> <!-- Catagorys -->
+      <group name="LogoTesting">
+        <method signature="groupskeyword.logoTest()[pri:3, instance:com.testNg.groupskeyword@506ae4d4]" name="logoTest" class="com.testNg.groupskeyword"/>
+        <method signature="dependencykeyword.logoTest()[pri:3, instance:com.testNg.dependencykeyword@6bd61f98]" name="logoTest" class="com.testNg.dependencykeyword"/>
+      </group> <!-- LogoTesting -->
+      <group name="Initial">
+        <method signature="dependencykeyword.registerTest()[pri:2, instance:com.testNg.dependencykeyword@6bd61f98]" name="registerTest" class="com.testNg.dependencykeyword"/>
+        <method signature="groupskeyword.loginTest()[pri:1, instance:com.testNg.groupskeyword@506ae4d4]" name="loginTest" class="com.testNg.groupskeyword"/>
+        <method signature="groupskeyword.registerTest()[pri:2, instance:com.testNg.groupskeyword@506ae4d4]" name="registerTest" class="com.testNg.groupskeyword"/>
+      </group> <!-- Initial -->
+    </groups>
+    <test started-at="2024-12-26T13:52:36 IST" name="Regression" finished-at="2024-12-26T13:53:52 IST" duration-ms="76359">
+      <class name="com.testNg.dependencykeyword">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.testNg.dependencykeyword@6bd61f98]" started-at="2024-12-26T13:52:43 IST" name="Setup" finished-at="2024-12-26T13:52:47 IST" duration-ms="3456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="registerTest()[pri:2, instance:com.testNg.dependencykeyword@6bd61f98]" started-at="2024-12-26T13:52:47 IST" name="registerTest" finished-at="2024-12-26T13:52:47 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNg.dependencykeyword@6bd61f98]" started-at="2024-12-26T13:52:47 IST" name="tearDown" finished-at="2024-12-26T13:52:47 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.testNg.dependencykeyword@6bd61f98]" started-at="2024-12-26T13:52:47 IST" name="Setup" finished-at="2024-12-26T13:52:51 IST" duration-ms="3641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.testNg.dependencykeyword@6bd61f98]" started-at="2024-12-26T13:52:51 IST" name="loginTest" finished-at="2024-12-26T13:52:51 IST" depends-on-methods="com.testNg.dependencykeyword.registerTest" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNg.dependencykeyword@6bd61f98]" started-at="2024-12-26T13:52:51 IST" name="tearDown" finished-at="2024-12-26T13:52:51 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.testNg.dependencykeyword@6bd61f98]" started-at="2024-12-26T13:52:51 IST" name="Setup" finished-at="2024-12-26T13:52:55 IST" duration-ms="3515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="logoTest()[pri:3, instance:com.testNg.dependencykeyword@6bd61f98]" started-at="2024-12-26T13:52:55 IST" name="logoTest" finished-at="2024-12-26T13:52:55 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNg.dependencykeyword@6bd61f98]" started-at="2024-12-26T13:52:55 IST" name="tearDown" finished-at="2024-12-26T13:52:55 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.testNg.dependencykeyword@6bd61f98]" started-at="2024-12-26T13:52:55 IST" name="Setup" finished-at="2024-12-26T13:52:59 IST" duration-ms="3561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="selectItems()[pri:4, instance:com.testNg.dependencykeyword@6bd61f98]" started-at="2024-12-26T13:52:59 IST" name="selectItems" finished-at="2024-12-26T13:53:07 IST" duration-ms="8471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNg.dependencykeyword@6bd61f98]" started-at="2024-12-26T13:53:07 IST" name="tearDown" finished-at="2024-12-26T13:53:07 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testNg.dependencykeyword -->
+      <class name="com.testNg.InvocationCountFeature">
+        <test-method signature="test1()[pri:0, instance:com.testNg.InvocationCountFeature@7d4f9aae]" started-at="2024-12-26T13:53:33 IST" name="test1" finished-at="2024-12-26T13:53:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testNg.InvocationCountFeature@7d4f9aae]" started-at="2024-12-26T13:53:33 IST" name="setup" finished-at="2024-12-26T13:53:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNg.InvocationCountFeature@7d4f9aae]" started-at="2024-12-26T13:53:33 IST" name="tearDown" finished-at="2024-12-26T13:53:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testNg.InvocationCountFeature@7d4f9aae]" started-at="2024-12-26T13:53:33 IST" name="setup" finished-at="2024-12-26T13:53:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test1()[pri:0, instance:com.testNg.InvocationCountFeature@7d4f9aae]" started-at="2024-12-26T13:53:33 IST" name="test1" finished-at="2024-12-26T13:53:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNg.InvocationCountFeature@7d4f9aae]" started-at="2024-12-26T13:53:33 IST" name="tearDown" finished-at="2024-12-26T13:53:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="test1()[pri:0, instance:com.testNg.InvocationCountFeature@7d4f9aae]" started-at="2024-12-26T13:53:33 IST" name="test1" finished-at="2024-12-26T13:53:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testNg.InvocationCountFeature@7d4f9aae]" started-at="2024-12-26T13:53:33 IST" name="setup" finished-at="2024-12-26T13:53:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNg.InvocationCountFeature@7d4f9aae]" started-at="2024-12-26T13:53:33 IST" name="tearDown" finished-at="2024-12-26T13:53:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="test1()[pri:0, instance:com.testNg.InvocationCountFeature@7d4f9aae]" started-at="2024-12-26T13:53:33 IST" name="test1" finished-at="2024-12-26T13:53:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testNg.InvocationCountFeature@7d4f9aae]" started-at="2024-12-26T13:53:33 IST" name="setup" finished-at="2024-12-26T13:53:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNg.InvocationCountFeature@7d4f9aae]" started-at="2024-12-26T13:53:33 IST" name="tearDown" finished-at="2024-12-26T13:53:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="test1()[pri:0, instance:com.testNg.InvocationCountFeature@7d4f9aae]" started-at="2024-12-26T13:53:33 IST" name="test1" finished-at="2024-12-26T13:53:33 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testNg.InvocationCountFeature@7d4f9aae]" started-at="2024-12-26T13:53:33 IST" name="setup" finished-at="2024-12-26T13:53:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNg.InvocationCountFeature@7d4f9aae]" started-at="2024-12-26T13:53:33 IST" name="tearDown" finished-at="2024-12-26T13:53:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testNg.InvocationCountFeature -->
+      <class name="com.testNg.priortyKeyword">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.testNg.priortyKeyword@72e5a8e]" started-at="2024-12-26T13:53:33 IST" name="Setup" finished-at="2024-12-26T13:53:36 IST" duration-ms="3535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="registerTest()[pri:1, instance:com.testNg.priortyKeyword@72e5a8e]" started-at="2024-12-26T13:53:36 IST" name="registerTest" finished-at="2024-12-26T13:53:36 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNg.priortyKeyword@72e5a8e]" started-at="2024-12-26T13:53:36 IST" name="tearDown" finished-at="2024-12-26T13:53:36 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.testNg.priortyKeyword@72e5a8e]" started-at="2024-12-26T13:53:36 IST" name="Setup" finished-at="2024-12-26T13:53:40 IST" duration-ms="3382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="logoTest()[pri:2, instance:com.testNg.priortyKeyword@72e5a8e]" started-at="2024-12-26T13:53:40 IST" name="logoTest" finished-at="2024-12-26T13:53:40 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNg.priortyKeyword@72e5a8e]" started-at="2024-12-26T13:53:40 IST" name="tearDown" finished-at="2024-12-26T13:53:40 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.testNg.priortyKeyword@72e5a8e]" started-at="2024-12-26T13:53:40 IST" name="Setup" finished-at="2024-12-26T13:53:44 IST" duration-ms="3470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="selectItems()[pri:3, instance:com.testNg.priortyKeyword@72e5a8e]" started-at="2024-12-26T13:53:44 IST" name="selectItems" finished-at="2024-12-26T13:53:52 IST" duration-ms="8174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNg.priortyKeyword@72e5a8e]" started-at="2024-12-26T13:53:52 IST" name="tearDown" finished-at="2024-12-26T13:53:52 IST" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testNg.priortyKeyword -->
+      <class name="com.testNg.expectedExceptionFeature">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testNg.expectedExceptionFeature@48aca48b]" started-at="2024-12-26T13:53:07 IST" name="setup" finished-at="2024-12-26T13:53:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test1()[pri:0, instance:com.testNg.expectedExceptionFeature@48aca48b]" started-at="2024-12-26T13:53:07 IST" name="test1" finished-at="2024-12-26T13:53:07 IST" duration-ms="3" status="PASS">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at com.testNg.expectedExceptionFeature.test1(expectedExceptionFeature.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNg.expectedExceptionFeature@48aca48b]" started-at="2024-12-26T13:53:07 IST" name="tearDown" finished-at="2024-12-26T13:53:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testNg.expectedExceptionFeature -->
+      <class name="com.testNg.groupskeyword">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.testNg.groupskeyword@506ae4d4]" started-at="2024-12-26T13:53:07 IST" name="Setup" finished-at="2024-12-26T13:53:11 IST" duration-ms="3565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="loginTest()[pri:1, instance:com.testNg.groupskeyword@506ae4d4]" started-at="2024-12-26T13:53:11 IST" name="loginTest" finished-at="2024-12-26T13:53:11 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNg.groupskeyword@506ae4d4]" started-at="2024-12-26T13:53:11 IST" name="tearDown" finished-at="2024-12-26T13:53:11 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.testNg.groupskeyword@506ae4d4]" started-at="2024-12-26T13:53:11 IST" name="Setup" finished-at="2024-12-26T13:53:15 IST" duration-ms="3404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="registerTest()[pri:2, instance:com.testNg.groupskeyword@506ae4d4]" started-at="2024-12-26T13:53:15 IST" name="registerTest" finished-at="2024-12-26T13:53:15 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNg.groupskeyword@506ae4d4]" started-at="2024-12-26T13:53:15 IST" name="tearDown" finished-at="2024-12-26T13:53:15 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.testNg.groupskeyword@506ae4d4]" started-at="2024-12-26T13:53:15 IST" name="Setup" finished-at="2024-12-26T13:53:19 IST" duration-ms="3614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="logoTest()[pri:3, instance:com.testNg.groupskeyword@506ae4d4]" started-at="2024-12-26T13:53:19 IST" name="logoTest" finished-at="2024-12-26T13:53:19 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNg.groupskeyword@506ae4d4]" started-at="2024-12-26T13:53:19 IST" name="tearDown" finished-at="2024-12-26T13:53:19 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.testNg.groupskeyword@506ae4d4]" started-at="2024-12-26T13:53:19 IST" name="Setup" finished-at="2024-12-26T13:53:22 IST" duration-ms="3422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="selectItems()[pri:4, instance:com.testNg.groupskeyword@506ae4d4]" started-at="2024-12-26T13:53:22 IST" name="selectItems" finished-at="2024-12-26T13:53:31 IST" duration-ms="8182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNg.groupskeyword@506ae4d4]" started-at="2024-12-26T13:53:31 IST" name="tearDown" finished-at="2024-12-26T13:53:33 IST" duration-ms="1895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testNg.groupskeyword -->
+      <class name="com.testNg.AnnotationWithSelenium">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.testNg.AnnotationWithSelenium@bae7dc0]" started-at="2024-12-26T13:52:36 IST" name="Setup" finished-at="2024-12-26T13:52:39 IST" duration-ms="3267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="getTitle()[pri:0, instance:com.testNg.AnnotationWithSelenium@bae7dc0]" started-at="2024-12-26T13:52:39 IST" name="getTitle" finished-at="2024-12-26T13:52:39 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNg.AnnotationWithSelenium@bae7dc0]" started-at="2024-12-26T13:52:39 IST" name="tearDown" finished-at="2024-12-26T13:52:39 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testNg.AnnotationWithSelenium -->
+      <class name="com.testNg.TestNGAnnotations">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.testNg.TestNGAnnotations@3f6f6701]" started-at="2024-12-26T13:52:36 IST" name="Setup" finished-at="2024-12-26T13:52:36 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:com.testNg.TestNGAnnotations@3f6f6701]" started-at="2024-12-26T13:52:36 IST" name="lauchBrowser" finished-at="2024-12-26T13:52:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+        <test-method is-config="true" signature="enterURL()[pri:0, instance:com.testNg.TestNGAnnotations@3f6f6701]" started-at="2024-12-26T13:53:52 IST" name="enterURL" finished-at="2024-12-26T13:53:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.testNg.TestNGAnnotations@3f6f6701]" started-at="2024-12-26T13:53:52 IST" name="login" finished-at="2024-12-26T13:53:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="getTitle()[pri:0, instance:com.testNg.TestNGAnnotations@3f6f6701]" started-at="2024-12-26T13:53:52 IST" name="getTitle" finished-at="2024-12-26T13:53:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.testNg.TestNGAnnotations@3f6f6701]" started-at="2024-12-26T13:53:52 IST" name="logout" finished-at="2024-12-26T13:53:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="deleteAllcookies()[pri:0, instance:com.testNg.TestNGAnnotations@3f6f6701]" started-at="2024-12-26T13:53:52 IST" name="deleteAllcookies" finished-at="2024-12-26T13:53:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllcookies -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testNg.TestNGAnnotations@3f6f6701]" started-at="2024-12-26T13:53:52 IST" name="closeBrowser" finished-at="2024-12-26T13:53:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.testNg.TestNGAnnotations@3f6f6701]" started-at="2024-12-26T13:53:52 IST" name="generateReport" finished-at="2024-12-26T13:53:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- com.testNg.TestNGAnnotations -->
+      <class name="com.testNg.AssertinsFeature">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.testNg.AssertinsFeature@29215f06]" started-at="2024-12-26T13:52:39 IST" name="Setup" finished-at="2024-12-26T13:52:43 IST" duration-ms="3448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="logoTest()[pri:0, instance:com.testNg.AssertinsFeature@29215f06]" started-at="2024-12-26T13:52:43 IST" name="logoTest" finished-at="2024-12-26T13:52:43 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNg.AssertinsFeature@29215f06]" started-at="2024-12-26T13:52:43 IST" name="tearDown" finished-at="2024-12-26T13:52:43 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testNg.AssertinsFeature -->
+    </test> <!-- Regression -->
+  </suite> <!-- Testing ebay E-Commerce website -->
+</testng-results>
